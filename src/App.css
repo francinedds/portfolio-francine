@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+/* VARIÁVEIS DE TEMA */
+
+/* Padrão (light) */
+:root {
+  --bg-color: #F0EFED;
+  --text-color: #2A2D32;
+  --primary-font: "Outfit", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+
+/* Tema escuro */
+body.dark {
+  --bg-color: #2A2D32;
+  --text-color: #fff;
+  --details-bg: #474747;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: var(--bg-color);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  z-index: 10;
+}
+
+.header button {
+  background: none;
+  border: none;
+  font-family: var(--secondary-font);
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative; /* Necessário para posicionar o ::after */
+}
+
+.header button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; 
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(45deg, #F858E8, #6D0ECB);
+  transition: width 0.3s ease;
+}
+
+.header button:hover::after {
+  width: 100%;
+}
+
+.header button:last-child::after {
+  width: 0 !important;
+  display: none; /* oculta completamente */
+}
+
+.slider {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 4rem; */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.section {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  padding: 6rem 2rem 2rem 2rem;
+  /* espaço pra header fixo */
+  font-family: var(--secondary-font);
+  color: var(--text-color);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-family: "Outfit", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.button-cv {
+  margin-top: 25px;
+  background: none;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(45deg, #F858E8, #6D0ECB);
+  font-family: var(--secondary-font);
+  color: var(--text-color);
+  font-weight: 500;
+  padding: 8px 80px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.button-cv:hover {
+  border-image-source: linear-gradient(-45deg, #F858E8, #6D0ECB);
+}
+
+.nav-arrows {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.arrow-button {
+  margin-top: 20px;
+  padding: 5px 40px;
+  font-size: 14px;
+  color: var(--text-color);
+  font-weight: 400;
+  border: 1px solid rgba(163, 163, 163, 0.356);
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.arrow-button:hover { 
+  background: rgba(163, 163, 163, 0.356);
+}
+
+.button-social{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 25px;
+  background: none;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(45deg, #F858E8, #6D0ECB);
+  font-family: var(--secondary-font);
+  color: var(--text-color);
+  font-weight: 500;
+  padding: 8px 60px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.button-social:hover {
+  border-image-source: linear-gradient(-45deg, #F858E8, #6D0ECB);
+}
+
+.projects-card{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 1px solid rgba(255, 255, 255, 0.637);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
