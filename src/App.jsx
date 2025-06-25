@@ -214,7 +214,7 @@ const Contato = ({ theme }) => (
     </div>
 
     <h1>Meus contatos</h1>
-    <p>Me envie uma mensagem nas redes sociais ou por email.</p>
+    <p className="text-center">Me envie uma mensagem nas redes sociais ou por email.</p>
     <div className="gap-4 mt-4">
       <a href="https://www.linkedin.com/in/francinedds" target="_blank" rel="noopener noreferrer" className="button-social">
         <LinkedinLogoIcon size={24} /> LinkedIn
