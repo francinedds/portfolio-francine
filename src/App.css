@@ -86,7 +86,7 @@ html {
 }
 
 .section {
-  position: absolute;
+  /* position: absolute; */
   width: 100vw;
   min-height: 100vh;
   height: auto;
@@ -187,12 +187,10 @@ h1{
 
 @media (max-width: 768px) {
   .section {    
-    /* Reduz o padding superior para ganhar mais espaço */
-      margin-top: 4rem; 
+      padding-top: 300px; 
   }
 
   h1 {
-    /* Diminui a fonte principal para não ocupar tanto espaço */
     font-size: 2rem;
   }
 }
