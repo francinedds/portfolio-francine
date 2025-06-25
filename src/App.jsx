@@ -1,14 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
-
-// import Lightbox from 'yet-another-react-lightbox';
-// import 'yet-another-react-lightbox/styles.css';
-
-// import Zoom from 'yet-another-react-lightbox/plugins/zoom';
-
 import { ArrowRightIcon, ArrowLeftIcon, MoonIcon, SunIcon, GithubLogoIcon, LinkedinLogoIcon, EnvelopeIcon, CodeIcon, DesktopIcon, BrainIcon } from "@phosphor-icons/react";
 
 import girlTechDark from './assets/girl-tech-black.png';
@@ -44,18 +36,8 @@ const Sobre = () => (
       </button>
     </div>
 
-    {/* 
-    <div className="w-full md:w-1/4 text-xs text-center mt-25">
-      <h3 className="text-sm font-semibold italic">Habilidades:</h3>
-      <span>
-        JavaScript, TypeScript, HTML, CSS, React.js, Delphi, Firebird, TailwindCSS, Git, GitHub, Figma, UI/UX, Web Design, Suporte Técnico, Design Gráfico.
-      </span>
-    </div> */}
-
-    <div className="text-center">
-      {/* <h3 className="text-sm font-semibold italic mb-6">Habilidades</h3> */}
       <div className="grid gap-6 md:grid-cols-3 text-xs justify-items-center">
-
+        
         {/* Linguagens & Tecnologias */}
         <div>
           <h4 className="font-medium mb-2 flex flex-col items-center justify-center">
@@ -99,7 +81,6 @@ const Sobre = () => (
         </div>
 
       </div>
-    </div>
   </motion.section>
 );
 
