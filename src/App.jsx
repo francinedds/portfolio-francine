@@ -94,7 +94,7 @@ const Projetos = ({ theme }) => {
       exit={{ x: -300 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="w-24 h-24 rounded-full p-2 border-2 flex items-center justify-center mb-2">
+      <div className="w-24 h-24 rounded-full p-2 border-2 flex items-center justify-center mb-2 mt-200 sm:mt-0">
         <img
           src={theme === 'dark' ? girlTechLight : girlTechDark}
           alt="Ilustração temática"
@@ -102,8 +102,8 @@ const Projetos = ({ theme }) => {
         />
       </div>
 
-      <h1>Meus projetos recentes</h1>
-      <p>Aqui estão alguns projetos que desenvolvi.</p>
+      <h1 className="text-center">Meus projetos recentes</h1>
+      <p className="text-center">Aqui estão alguns projetos que desenvolvi.</p>
       <div className="w-full max-w-4xl mt-5 grid grid-cols-1 md:grid-cols-2 gap-2">
         {[
           {
@@ -205,7 +205,7 @@ const Contato = ({ theme }) => (
     exit={{ x: -300 }}
     transition={{ duration: 0.5 }}
   >
-    <div className="w-20 h-20 rounded-full p-2 border-2 flex items-center justify-center mb-2">
+    <div className="w-20 h-20 rounded-full p-2 border-2 flex items-center justify-center mb-2 mt-[-300px] sm:mt-0">
       <img 
         src={theme === 'dark' ? chatLight : chatDark} 
         alt="Ilustração temática"

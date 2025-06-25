@@ -29,11 +29,10 @@ html {
   height: 100vh;
   width: 100vw;
   position: relative;
-  background: var(--bg-color);
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   background: var(--bg-color);
@@ -86,7 +85,6 @@ html {
 }
 
 .section {
-  /* position: absolute; */
   width: 100vw;
   min-height: 100vh;
   height: auto;
@@ -187,7 +185,7 @@ h1{
 
 @media (max-width: 768px) {
   .section {    
-      padding-top: 300px; 
+      padding-top: 350px; 
   }
 
   h1 {
