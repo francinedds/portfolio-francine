@@ -184,3 +184,15 @@ h1{
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
+
+@media (max-width: 768px) {
+  .section {    
+    /* Reduz o padding superior para ganhar mais espaço */
+      margin-top: 40rem; 
+  }
+
+  h1 {
+    /* Diminui a fonte principal para não ocupar tanto espaço */
+    font-size: 2rem;
+  }
+}
