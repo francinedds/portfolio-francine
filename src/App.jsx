@@ -94,7 +94,7 @@ const Projetos = ({ theme }) => {
       exit={{ x: -300 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="w-24 h-24 rounded-full p-2 border-2 flex items-center justify-center mb-2 mt-200 sm:mt-0">
+      <div className="w-24 h-24 rounded-full p-2 border-2 flex items-center justify-center mb-2 mt-[800px] sm:mt-0">
         <img
           src={theme === 'dark' ? girlTechLight : girlTechDark}
           alt="Ilustração temática"
