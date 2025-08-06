@@ -22,9 +22,9 @@ const Sobre = () => (
     <div className="w-full md:w-1/2 text-center mt-40">
       <h1>Olá, me chamo Francine!</h1>
       <p className="text-sm">
-        Sou graduanda em Tecnologia da Informação, desenvolvedora front-end com foco em <strong>React.js</strong>. 
+        Sou graduanda em Tecnologia da Informação, desenvolvedora front-end com foco em <strong>React.js</strong>.
         Possuo experiência prática em desenvolvimento de sistemas com Delphi e Firebird, além de suporte técnico. 
-        Entusiasta de UI/UX e design de interfaces com Figma. Atualmente, estou aprofundando habilidades em 
+        Entusiasta de UI/UX e design gráfico. <br /> Atualmente, estou aprofundando habilidades em 
         tecnologias modernas do ecossistema <strong>JavaScript</strong> através da Rocketseat.
       </p>
     </div>
@@ -46,8 +46,8 @@ const Sobre = () => (
           </h4>
           <div className="flex flex-wrap justify-center gap-x-2 gap-y-1 text-gray-500">
             {[
-              'JavaScript', 'TypeScript', 'HTML', 'CSS', 
-              'React.js', 'Delphi', 'Firebird'
+              'HTML', 'CSS', 'JavaScript', 'React.js', 'TypeScript',  
+              'Next.js', 'Node.js', 'Delphi', 'Firebird'
             ].map((item, i) => (
               <span key={i}>{item}</span>
             ))}
@@ -61,7 +61,7 @@ const Sobre = () => (
             Frameworks & Ferramentas
           </h4>
           <div className="flex flex-wrap justify-center gap-x-2 gap-y-1 text-gray-500">
-            {['TailwindCSS', 'Git', 'GitHub', 'Figma'].map((item, i) => (
+            {['TailwindCSS', 'Git & GitHub', 'Figma'].map((item, i) => (
               <span key={i}>{item}</span>
             ))}
           </div>
@@ -74,7 +74,7 @@ const Sobre = () => (
             Outros conhecimentos
           </h4>
           <div className="flex flex-wrap justify-center gap-x-2 gap-y-1 text-gray-500">
-            {['UI/UX', 'Web Design', 'Suporte Técnico', 'Design Gráfico'].map((item, i) => (
+            {['UI/UX', 'Web Design', 'Design Gráfico', 'Suporte Técnico' ].map((item, i) => (
               <span key={i}>{item}</span>
             ))}
           </div>
@@ -143,14 +143,12 @@ const Projetos = ({ theme }) => {
             ],
           },
           {
-            title: 'Memory Game',
-            description: 'Jogo de memória interativo onde o usuário deve encontrar pares de cartas correspondentes.',
-            stack: ['React', 'Vite', 'TailwindCSS'],
-            demo: 'https://memory-game.vercel.app',
-            repo: 'https://github.com/francinedds/memory-game',
+            title: 'Todo App',
+            description: 'Aplicação completa de lista de tarefas (ToDo List) com backend e frontend integrados, feito para praticar conceitos fundamentais de desenvolvimento web full stack.',
+            stack: ['React', 'Vite', 'TailwindCSS', 'Node.js', 'Express'],
+            repo: 'https://github.com/francinedds/todo-app-full-stack',
             highlights: [
-              'Jogo interativo com indicativo de ganhador/empate',
-              'Interface simples e envolvente',
+              'Interface simples e intuitiva',
               'Desenvolvido com React e Vite para melhor desempenho',
             ],
           },
