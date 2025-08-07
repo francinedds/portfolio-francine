@@ -119,15 +119,15 @@ const Projetos = ({ theme }) => {
             ],
           },
           {
-            title: 'Recipes',
-            description: 'Aplicativo para visualização e busca de receitas culinárias, com interface intuitiva e consumo de API.',
-            stack: ['React', 'Vite', 'TailwindCSS'],
+            title: 'Cafeteria App',
+            description: 'O "De Grão em Grão" tem foco em mobile-first. A ideia foi criar um app para uma cafeteria, com catálogo de produtos, navegação otimizada para celular e estrutura moderna com Next.js.',
+            stack: ['Next', 'TailwindCSS'],
             demo: 'https://recipes-ruddy-xi.vercel.app',
             repo: 'https://github.com/francinedds/recipes',
             highlights: [
-              'Interface amigável para navegação entre receitas',
-              'Funcionalidade de busca eficiente',
-              'Desenvolvido com React e Vite para melhor desempenho',
+              'Layout mobile-first',
+              'Desenvolvido em Next com roteamento nativo',
+              'Componente de carrinho (bag) para adicionar/excluir itens e revisar pedidos.',
             ],
           },
           {
