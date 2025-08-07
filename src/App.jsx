@@ -127,7 +127,7 @@ const Projetos = ({ theme }) => {
             highlights: [
               'Layout mobile-first',
               'Desenvolvido em Next com roteamento nativo',
-              'Componente de carrinho (bag) para adicionar/excluir itens e revisar pedidos.',
+              'Componente de carrinho (bag) para adicionar/excluir itens e revisar pedidos',
             ],
           },
           {
