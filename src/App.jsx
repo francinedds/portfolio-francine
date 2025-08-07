@@ -122,8 +122,8 @@ const Projetos = ({ theme }) => {
             title: 'Cafeteria App',
             description: 'O "De Grão em Grão" tem foco em mobile-first. A ideia foi criar um app para uma cafeteria, com catálogo de produtos, navegação otimizada para celular e estrutura moderna com Next.js.',
             stack: ['Next', 'TailwindCSS'],
-            demo: 'https://recipes-ruddy-xi.vercel.app',
-            repo: 'https://github.com/francinedds/recipes',
+            demo: 'https://cafeteria-next-app.vercel.app/',
+            repo: 'https://github.com/francinedds/cafeteria-next-app',
             highlights: [
               'Layout mobile-first',
               'Desenvolvido em Next com roteamento nativo',
