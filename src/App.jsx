@@ -108,12 +108,12 @@ const Projetos = ({ theme }) => {
         {[
           {
             title: 'Calendar Moonphase',
-            description: 'Aplicação que exibe as fases da lua em um calendário interativo, permitindo aos usuários visualizar as fases lunares de qualquer data.',
+            description: 'Aplicação que exibe as fases da lua em um calendário widget, permitindo ao usuário visualizar sua fase atual.',
             stack: ['React', 'Vite', 'TailwindCSS'],
             demo: 'https://calendar-moonphase.vercel.app',
             repo: 'https://github.com/francinedds/calendar-moonphase',
             highlights: [
-              'Visualização interativa das fases lunares',
+              'Visualização das fases lunares',
               'Interface limpa e responsiva',
               'Desenvolvido com React e Vite para desempenho otimizado',
             ],
