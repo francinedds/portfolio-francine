@@ -265,14 +265,14 @@ function App() {
           {sections[index]}
         </AnimatePresence>
 
-        <div className="nav-arrows absolute bottom-4 right-4 flex gap-2">
+        <div className="nav-arrows absolute bottom-4 right-4 flex gap-2 pointer-events-none">
           {index > 0 && (
-            <button className="arrow-button" onClick={prev}>
+            <button className="arrow-button pointer-events-auto" onClick={prev}>
               <ArrowLeftIcon size={20} />
             </button>
           )}
           {index < sections.length - 1 && (
-            <button className="arrow-button" onClick={next}>
+            <button className="arrow-button pointer-events-auto" onClick={next}>
               <ArrowRightIcon size={20} />
             </button>
           )}
