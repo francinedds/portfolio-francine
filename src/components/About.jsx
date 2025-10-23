@@ -11,7 +11,7 @@ const About = () => (
     transition={{ duration: 0.5 }}
   >
     <div className="w-full md:w-1/2 text-center mt-40">
-      <h1>Olá, me chamo Francine!</h1>
+      <h1>Olá! Me chamo Francine.</h1>
       <p className="text-sm">
         Sou graduanda em Tecnologia da Informação, desenvolvedora front-end com foco em <strong>React.js</strong>.
         Possuo experiência prática em desenvolvimento de sistemas com Delphi e Firebird, além de suporte técnico. 
