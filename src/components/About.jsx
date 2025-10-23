@@ -28,13 +28,13 @@ const About = () => (
 
     <div className="grid gap-6 md:grid-cols-3 text-xs justify-items-center">
       <Section title="Linguagens & Tecnologias" icon={<CodeIcon size={24} />} items={[
-        'HTML', 'CSS', 'JavaScript', 'React.js', 'TypeScript', 'Next.js', 'Node.js', 'Delphi', 'Firebird'
+        'HTML', 'CSS', 'JavaScript', 'React.js', 'React Native', 'Next.js', 'TypeScript', 'Node.js',
       ]} />
       <Section title="Frameworks & Ferramentas" icon={<DesktopIcon size={24} />} items={[
         'TailwindCSS', 'Git & GitHub', 'Figma'
       ]} />
       <Section title="Outros conhecimentos" icon={<BrainIcon size={24} />} items={[
-        'UI/UX', 'Web Design', 'Design Gráfico', 'Suporte Técnico'
+        'UI/UX', 'Design Gráfico', 'Suporte Técnico', 'MySQL'
       ]} />
     </div>
   </motion.section>
