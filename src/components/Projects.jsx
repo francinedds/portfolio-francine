@@ -5,16 +5,59 @@ import ProjectCard from './ProjectCard';
 
 const Projects = ({ theme }) => {
   const projects = [
+    // Projeto #1
+    {
+      title: 'Login FullStack',
+      description: 'Projeto de autenticação fullstack com framework Next.js.',
+      stack: ['Next', 'Express', 'TailwindCSS', 'MySQL'],
+      demo: 'https://github.com/francinedds/login-fullstack',
+      repo: 'https://login-fullstack-kappa.vercel.app/signup',
+      highlights: [
+        'Autenticação de usuários com JWT',
+        'Integração com backend Node.js',
+        'Banco de dados MySQL',
+      ],
+    },
+
+    // Projeto #2
+    {
+      title: 'Akademi',
+      description: 'Projeto foi desenvolvido como um desafio técnico para uma fintech.',
+      stack: ['Next', 'TailwindCSS'],
+      demo: 'https://github.com/francinedds/akademi',
+      repo: 'https://akademi-eight.vercel.app/students',
+      highlights: [
+        'Para o roteamento de páginas',
+        'Tabela com paginação',
+        'Filtro do tipo dropdown',
+      ],
+    },
+
+    // Projeto #3
+    {
+      title: 'De Grão em Grão',
+      description: 'App cafeteria mobile-first em Next.js com catalogo de produtos.',
+      stack: ['Next', 'TailwindCSS'],
+      demo: 'https://github.com/francinedds/cafeteria-next-app',
+      repo: 'https://cafeteria-next-app.vercel.app/',
+      highlights: [
+        'Layout mobile-first',
+        'Context API para adicionar/excluir itens',
+        'Componentização clara e clean',
+      ],
+    },
+
+    // Projeto #4
     {
       title: 'Calendar Moonphase',
-      description: 'Aplicação que exibe as fases da lua...',
+      description: 'Aplicação que exibe as fases da lua.',
       stack: ['React', 'Vite', 'TailwindCSS'],
       demo: 'https://calendar-moonphase.vercel.app',
       repo: 'https://github.com/francinedds/calendar-moonphase',
       highlights: [
         'Visualização das fases lunares',
         'Interface limpa e responsiva',
-        'Desenvolvido com React e Vite para desempenho otimizado',
+        'Desenvolvido com foco em uso em desktop',
       ],
     },
     
