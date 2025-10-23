@@ -10,8 +10,8 @@ const Projects = ({ theme }) => {
       title: 'Login FullStack',
       description: 'Projeto de autenticação fullstack com framework Next.js.',
       stack: ['Next', 'Express', 'TailwindCSS', 'MySQL'],
-      demo: 'https://github.com/francinedds/login-fullstack',
-      repo: 'https://login-fullstack-kappa.vercel.app/signup',
+      demo: 'https://login-fullstack-kappa.vercel.app/signup', 
+      repo: 'https://github.com/francinedds/login-fullstack',
       highlights: [
         'Autenticação de usuários com JWT',
         'Integração com backend Node.js',
@@ -24,8 +24,8 @@ const Projects = ({ theme }) => {
       title: 'Akademi',
       description: 'Projeto foi desenvolvido como um desafio técnico para uma fintech.',
       stack: ['Next', 'TailwindCSS'],
-      demo: 'https://github.com/francinedds/akademi',
-      repo: 'https://akademi-eight.vercel.app/students',
+      demo: 'https://akademi-eight.vercel.app/students', 
+      repo: 'https://github.com/francinedds/akademi',
       highlights: [
         'Para o roteamento de páginas',
         'Tabela com paginação',
@@ -38,8 +38,8 @@ const Projects = ({ theme }) => {
       title: 'De Grão em Grão',
       description: 'App cafeteria mobile-first em Next.js com catalogo de produtos.',
       stack: ['Next', 'TailwindCSS'],
-      demo: 'https://github.com/francinedds/cafeteria-next-app',
-      repo: 'https://cafeteria-next-app.vercel.app/',
+      demo: 'https://cafeteria-next-app.vercel.app/',
+      repo: 'https://github.com/francinedds/cafeteria-next-app', 
       highlights: [
         'Layout mobile-first',
         'Context API para adicionar/excluir itens',
