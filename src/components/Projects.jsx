@@ -22,12 +22,12 @@ const Projects = ({ theme }) => {
     // Projeto #2
     {
       title: 'Akademi',
-      description: 'Projeto foi desenvolvido como um desafio técnico para uma fintech.',
+      description: 'Projeto desenvolvido como um desafio técnico para uma fintech.',
       stack: ['Next', 'TailwindCSS'],
       demo: 'https://akademi-eight.vercel.app/students', 
       repo: 'https://github.com/francinedds/akademi',
       highlights: [
-        'Para o roteamento de páginas',
+        'Roteamento de páginas Next.js',
         'Tabela com paginação',
         'Filtro do tipo dropdown',
       ],
@@ -36,7 +36,7 @@ const Projects = ({ theme }) => {
     // Projeto #3
     {
       title: 'De Grão em Grão',
-      description: 'App cafeteria mobile-first em Next.js com catalogo de produtos.',
+      description: 'App cafeteria mobile-first em Next.js com catálogo de produtos.',
       stack: ['Next', 'TailwindCSS'],
       demo: 'https://cafeteria-next-app.vercel.app/',
       repo: 'https://github.com/francinedds/cafeteria-next-app', 
