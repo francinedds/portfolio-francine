@@ -3,8 +3,6 @@
 Este é o meu portfólio pessoal desenvolvido em **React.js**, com foco em **animações suaves**, **design responsivo** e **modo claro/escuro**.  
 O projeto foi recentemente **refatorado** para separar cada seção em componentes independentes, tornando o código mais modular e de fácil manutenção.
 
----
-
 ## Tecnologias utilizadas
 
 - **React.js**
@@ -12,8 +10,6 @@ O projeto foi recentemente **refatorado** para separar cada seção em component
 - **Framer Motion**
 - **Modo Dark/Light**
 - **Componentização e animações de transição**
-
----
 
 ## Estrutura do projeto
 
