@@ -34,7 +34,7 @@ const About = () => (
         'TailwindCSS', 'Git & GitHub', 'Figma'
       ]} />
       <Section title="Outros conhecimentos" icon={<BrainIcon size={24} />} items={[
-        'UI/UX', 'Design Gráfico', 'Suporte Técnico', 'MySQL'
+        'UI/UX', 'Design Gráfico', 'Suporte Técnico', 'SQLite'
       ]} />
     </div>
   </motion.section>
