@@ -9,13 +9,13 @@ const Projects = ({ theme }) => {
     {
       title: 'Login FullStack',
       description: 'Projeto de autenticação fullstack com framework Next.js.',
-      stack: ['Next', 'Express', 'TailwindCSS', 'SQLite'],
+      stack: ['Next', 'Express', 'TailwindCSS', 'SQLiteTeste'],
       demo: 'https://login-fullstack-kappa.vercel.app/signup', 
       repo: 'https://github.com/francinedds/login-fullstack',
       highlights: [
         'Autenticação de usuários com JWT',
         'Integração com backend Node.js',
-        'Banco de dados SQLite,
+        'Banco de dados SQLiteTeste,
       ],
     },
 
