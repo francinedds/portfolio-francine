@@ -13,9 +13,9 @@ const About = () => (
     <div className="w-full md:w-1/2 text-center mt-40">
       <h1>Olá! Me chamo Francine.</h1>
       <p className="text-sm">
-        Graduada em Tecnologia da Informação, com foco em desenvolvimento front-end utilizando <strong>React.js</strong>. 
+        Graduada em Tecnologia da Informação, com foco em desenvolvimento front-end utilizando React.js. <br></br>
         Possui conhecimentos em UI/UX, desenvolvimento de sistemas e suporte técnico. 
-        Atualmente desenvolvendo habilidades no ecossistema <strong>JavaScript</strong>, com ênfase em capacitações oferecidas pela
+        Atualmente desenvolvendo habilidades no ecossistema JavaScript, com ênfase em capacitações oferecidas pela
         Rocketseat.
       </p>
     </div>
