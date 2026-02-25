@@ -35,14 +35,14 @@ const Projects = ({ theme }) => {
 
     // Projeto #3
     {
-      title: 'De Grão em Grão',
-      description: 'App cafeteria mobile-first em Next.js com catálogo de produtos.',
+      title: 'Our Health',
+      description: 'Blog de nutrição desenvolvido em Next.js.',
       stack: ['Next', 'TailwindCSS'],
-      demo: 'https://cafeteria-next-app.vercel.app/',
-      repo: 'https://github.com/francinedds/cafeteria-next-app', 
+      demo: 'https://nutri-blog.vercel.app/',
+      repo: 'https://github.com/francinedds/nutri-blog', 
       highlights: [
-        'Layout mobile-first',
-        'Context API para adicionar/excluir itens',
+        'Markdown para os posts',
+        'Sistema de busca client-side para filtrar posts',
         'Componentização clara e clean',
       ],
     },
